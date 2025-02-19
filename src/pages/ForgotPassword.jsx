@@ -42,9 +42,8 @@ function ForgotPassword() {
                   name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter Your email address"
+                  placeholder="Enter email address"
                   className="form-style w-full"
-                  
                 />
               </label>
             )}
@@ -68,4 +67,4 @@ function ForgotPassword() {
   )
 }
 
-export default ForgotPassword 
+export default ForgotPassword
